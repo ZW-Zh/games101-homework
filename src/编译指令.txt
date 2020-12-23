@@ -1,0 +1,1 @@
+g++ -g -std=c++17  -I./include -L./lib src/pa0/main.cpp -o main 
