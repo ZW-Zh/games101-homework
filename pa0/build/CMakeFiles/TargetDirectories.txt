@@ -1,3 +1,0 @@
-E:/C++WorkSpace/graphics/pa0/build/CMakeFiles/edit_cache.dir
-E:/C++WorkSpace/graphics/pa0/build/CMakeFiles/Transformation.dir
-E:/C++WorkSpace/graphics/pa0/build/CMakeFiles/rebuild_cache.dir

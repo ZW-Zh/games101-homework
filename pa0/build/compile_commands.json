@@ -1,7 +1,0 @@
-[
-{
-  "directory": "E:/C++WorkSpace/graphics/pa0/build",
-  "command": "C:\\MinGW\\mingw64\\bin\\g++.exe  @CMakeFiles/Transformation.dir/includes_CXX.rsp -g -o CMakeFiles\\Transformation.dir\\main.cpp.obj -c E:\\C++WorkSpace\\graphics\\pa0\\main.cpp",
-  "file": "E:/C++WorkSpace/graphics/pa0/main.cpp"
-}
-]
