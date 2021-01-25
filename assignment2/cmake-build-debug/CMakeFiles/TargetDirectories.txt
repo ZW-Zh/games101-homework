@@ -1,0 +1,3 @@
+/Users/zevzhang/CLionProjects/graphics/games101-homework/assignment2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/zevzhang/CLionProjects/graphics/games101-homework/assignment2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/zevzhang/CLionProjects/graphics/games101-homework/assignment2/cmake-build-debug/CMakeFiles/Rasterizer.dir
