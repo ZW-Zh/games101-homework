@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="RayTracing"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/zev/CLionProjects/graphics/games101-homework/assignment6/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/zev/CLionProjects/graphics/games101-homework/assignment6/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/zev/CLionProjects/graphics/games101-homework/assignment6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/zev/CLionProjects/graphics/games101-homework/assignment6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/zev/CLionProjects/graphics/games101-homework/assignment6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/zev/CLionProjects/graphics/games101-homework/assignment6/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/zev/CLionProjects/graphics/games101-homework/assignment6/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/zev/CLionProjects/graphics/games101-homework/assignment6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/zev/CLionProjects/graphics/games101-homework/assignment6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/zev/CLionProjects/graphics/games101-homework/assignment6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/zev/CLionProjects/graphics/games101-homework/assignment6/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/zev/CLionProjects/graphics/games101-homework/assignment6/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/zev/CLionProjects/graphics/games101-homework/assignment6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/zev/CLionProjects/graphics/games101-homework/assignment6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/zev/CLionProjects/graphics/games101-homework/assignment6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RayTracing">
+				<Option output="/home/zev/CLionProjects/graphics/games101-homework/assignment6/cmake-build-debug/RayTracing" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zev/CLionProjects/graphics/games101-homework/assignment6/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/zev/CLionProjects/graphics/games101-homework/assignment6/cmake-build-debug/Makefile&quot;  VERBOSE=1 RayTracing"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/zev/CLionProjects/graphics/games101-homework/assignment6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/zev/CLionProjects/graphics/games101-homework/assignment6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/zev/CLionProjects/graphics/games101-homework/assignment6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RayTracing/fast">
+				<Option output="/home/zev/CLionProjects/graphics/games101-homework/assignment6/cmake-build-debug/RayTracing" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zev/CLionProjects/graphics/games101-homework/assignment6/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/zev/CLionProjects/graphics/games101-homework/assignment6/cmake-build-debug/Makefile&quot;  VERBOSE=1 RayTracing/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/zev/CLionProjects/graphics/games101-homework/assignment6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/zev/CLionProjects/graphics/games101-homework/assignment6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/zev/CLionProjects/graphics/games101-homework/assignment6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/zev/CLionProjects/graphics/games101-homework/assignment6/AreaLight.hpp">
+			<Option target="RayTracing"/>
+		</Unit>
+		<Unit filename="/home/zev/CLionProjects/graphics/games101-homework/assignment6/BVH.cpp">
+			<Option target="RayTracing"/>
+		</Unit>
+		<Unit filename="/home/zev/CLionProjects/graphics/games101-homework/assignment6/BVH.hpp">
+			<Option target="RayTracing"/>
+		</Unit>
+		<Unit filename="/home/zev/CLionProjects/graphics/games101-homework/assignment6/Bounds3.hpp">
+			<Option target="RayTracing"/>
+		</Unit>
+		<Unit filename="/home/zev/CLionProjects/graphics/games101-homework/assignment6/Intersection.hpp">
+			<Option target="RayTracing"/>
+		</Unit>
+		<Unit filename="/home/zev/CLionProjects/graphics/games101-homework/assignment6/Light.hpp">
+			<Option target="RayTracing"/>
+		</Unit>
+		<Unit filename="/home/zev/CLionProjects/graphics/games101-homework/assignment6/Material.hpp">
+			<Option target="RayTracing"/>
+		</Unit>
+		<Unit filename="/home/zev/CLionProjects/graphics/games101-homework/assignment6/Object.hpp">
+			<Option target="RayTracing"/>
+		</Unit>
+		<Unit filename="/home/zev/CLionProjects/graphics/games101-homework/assignment6/Ray.hpp">
+			<Option target="RayTracing"/>
+		</Unit>
+		<Unit filename="/home/zev/CLionProjects/graphics/games101-homework/assignment6/Renderer.cpp">
+			<Option target="RayTracing"/>
+		</Unit>
+		<Unit filename="/home/zev/CLionProjects/graphics/games101-homework/assignment6/Renderer.hpp">
+			<Option target="RayTracing"/>
+		</Unit>
+		<Unit filename="/home/zev/CLionProjects/graphics/games101-homework/assignment6/Scene.cpp">
+			<Option target="RayTracing"/>
+		</Unit>
+		<Unit filename="/home/zev/CLionProjects/graphics/games101-homework/assignment6/Scene.hpp">
+			<Option target="RayTracing"/>
+		</Unit>
+		<Unit filename="/home/zev/CLionProjects/graphics/games101-homework/assignment6/Sphere.hpp">
+			<Option target="RayTracing"/>
+		</Unit>
+		<Unit filename="/home/zev/CLionProjects/graphics/games101-homework/assignment6/Triangle.hpp">
+			<Option target="RayTracing"/>
+		</Unit>
+		<Unit filename="/home/zev/CLionProjects/graphics/games101-homework/assignment6/Vector.cpp">
+			<Option target="RayTracing"/>
+		</Unit>
+		<Unit filename="/home/zev/CLionProjects/graphics/games101-homework/assignment6/Vector.hpp">
+			<Option target="RayTracing"/>
+		</Unit>
+		<Unit filename="/home/zev/CLionProjects/graphics/games101-homework/assignment6/global.hpp">
+			<Option target="RayTracing"/>
+		</Unit>
+		<Unit filename="/home/zev/CLionProjects/graphics/games101-homework/assignment6/main.cpp">
+			<Option target="RayTracing"/>
+		</Unit>
+		<Unit filename="/home/zev/CLionProjects/graphics/games101-homework/assignment6/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
