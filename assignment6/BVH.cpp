@@ -20,8 +20,8 @@ BVHAccel::BVHAccel(std::vector<Object *> p, int maxPrimsInNode,
     int secs = (int) diff - (hrs * 3600) - (mins * 60);
 
     printf(
-            "\rBVH Generation complete: \nTime Taken: %i hrs, %i mins, %i secs\n\n",
-            hrs, mins, secs);
+            "\rBVH Generation complete: \nTime Taken: %i hrs, %i mins, %i secs diff: %f\n\n",
+            hrs, mins, secs, diff);
 }
 
 BVHBuildNode *BVHAccel::recursiveBuild(std::vector<Object *> objects) {
@@ -72,7 +72,22 @@ BVHBuildNode *BVHAccel::recursiveBuild(std::vector<Object *> objects) {
         }
 
         auto beginning = objects.begin();
-        auto middling = objects.begin() + (objects.size() / 2);
+        //auto middling = objects.begin() + (objects.size() / 2);
+        float min_cost = kInfinity;
+        size_t min_i;
+        for (size_t i = 1; i < objects.size(); i++) {
+            float s_a = 0;
+            for (int j = 0; j < i; j++) s_a += objects[j]->getBounds().SurfaceArea();
+            float s_b = 0;
+            for (int k = i; k < objects.size(); k++) s_b += objects[k]->getBounds().SurfaceArea();
+            float cost = s_a * i + s_b * (objects.size() - i);
+            if (cost < min_cost) {
+                min_cost = cost;
+                min_i = i;
+            }
+        }
+        auto middling = objects.begin() + min_i;
+
         auto ending = objects.end();
 
         auto leftshapes = std::vector<Object *>(beginning, middling);
@@ -99,7 +114,7 @@ Intersection BVHAccel::Intersect(const Ray &ray) const {
 
 Intersection BVHAccel::getIntersection(BVHBuildNode *node, const Ray &ray) const {
     // TODO Traverse the BVH to find intersection
-    std::array<int, 3> dirisNeg = {int(ray.direction.x >=0),int(ray.direction.y>=0),int(ray.direction.z>=0)};
+    std::array<int, 3> dirisNeg = {int(ray.direction.x >= 0), int(ray.direction.y >= 0), int(ray.direction.z >= 0)};
 //    if (ray.direction.x >= 0) dirisNeg[0] = 1;
 //    if (ray.direction.y >= 0) dirisNeg[1] = 1;
 //    if (ray.direction.z >= 0) dirisNeg[2] = 1;
